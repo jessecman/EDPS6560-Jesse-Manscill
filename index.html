@@ -13,6 +13,23 @@
 			crossorigin="anonymous"
 		/>
 
+		<!-- FontAwesome CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+
+		<!-- Main Stylesheet -->
+		<link rel="stylesheet" href="style.css"/>
+
+		<style>
+			/* Hi, I'm an internal stylesheet, and I usually appear within the header section following the external stylesheets listed above. */
+			#sec_lan {
+				height: 200vh;
+			}
+		</style>
+
 		<title>I am Jesse Manscill</title>
 	</head>
 
@@ -20,15 +37,46 @@
 	<body>
 		<!-- This is the top of the page!
         -->
-		<div id="sec_lan">
-			<h1><strong>Jesse Manscill</strong></h1>
-			<h2>IDET Grad Student</h2>
-			<h3>Cool Guy| Teacher | Lorem ipsum dolor | Lorem ipsum dolor | Lorem ipsum dolor</h3>
-			<h4>
+		<div id="sec_lan" class="container-fluid" style="height: 100vh;">
+			<div class="row justify-content-between">
+				<div class="col-auto">
+			       <h1><strong>Jesse Manscill</strong></h1>
+                </div>
+            <div class="col-auto">
+					<a href="contact.html"><i class="fas fa-address-card"></i>Contact Me</a>
+				</div>
+            </div>
+            <div class="row justify-content-center align-items-center" style="height: 70vh;">
+				<div class="col-6">
+			         <h2>IDET Grad Student</h2>
+			<h3>Cool Guy| Teacher | Family </h3>
+			<h5>
 				Looking to learn some HTML. Trying to make this all work! I'll change all this later. 
-			</h4>
-			
+			</h5>
+		      </div>
+                <div class="col-4">
+					<img src="img/laptop-2298286_1280.png" width="100%" height="auto" alt="Laptop and a Cactuc" />
+					<!--Image by <a href="https://pixabay.com/vectors/laptop-computer-portable-pc-2298286/">Pixabay</a>-->
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-auto">
+					<a href="#">
+						<span>Scroll Down</span><br />
+						<i class="fas fa-chevron-circle-down"></i>
+					</a>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-5">
+					<h4>
+						Doing cool things in a crazy world... 
+					</h4>
+					<a class="btn btn-lg btn-primary rounded-pill" role="button" href="#sec_abo">Learn More</a>
+				</div>
+			</div>
 		</div>
+        
         <!-- Start Navigation Section-->
 		<nav id="sec_nav">
 			<ul>
