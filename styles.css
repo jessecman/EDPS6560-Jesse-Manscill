@@ -48,7 +48,7 @@ No media query for `xs` since this is the default in Bootstrap */
     }
 
 #sec_exp {
-    height: 30vh;
+    height: 50vh;
     background-color: var(--pink);
     font-family: 'Roboto', sans-serif;
 }
