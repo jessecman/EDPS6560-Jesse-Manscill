@@ -36,7 +36,7 @@ No media query for `xs` since this is the default in Bootstrap */
 }
 
 #sec_nav {
-	height: 23vh;
+	height: 35vh;
 	background-color: var(--brown);
     font-family: 'Poppins', sans-serif;
 }
@@ -48,7 +48,7 @@ No media query for `xs` since this is the default in Bootstrap */
     }
 
 #sec_exp {
-    height: 23vh;
+    height: 30vh;
     background-color: var(--pink);
     font-family: 'Roboto', sans-serif;
 }
