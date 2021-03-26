@@ -18,48 +18,56 @@
 
 		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
+        
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:wght@100&family=Press+Start+2P&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        
+<link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">
 
 		<!-- Main Stylesheet -->
-		<link rel="stylesheet" href="styles.css"/>
+		<link rel="stylesheet" href="css/styles.css"/>
 
 		<style>
 			/* Hi, I'm an internal stylesheet, and I usually appear within the header section following the external stylesheets listed above. */
 			#sec_lan {
-				height: 200vh;
+				height: 300vh;
 			}
 		</style>
 
-		<title>I am Jesse Manscill</title>
+		<title>Jesse Manscilll</title>
 	</head>
 
     
 	<body>
-		<!-- This is the top of the page!
-        -->
+		<!-- This is the top of the page!-->
 		<div id="sec_lan" class="container-fluid" style="height: 100vh;">
-			<div class="row justify-content-between">
+			<div id="tophead" class="row justify-content-between">
 				<div class="col-auto">
-			       <h1><strong>Jesse Manscill</strong></h1>
+			       <h1 class="my-name">Jesse Manscill</h1>
                 </div>
-            <div class="col-auto">
-					<a href="contact.html"><i class="fas fa-address-card"></i>Contact Me</a>
-				</div>
+                    <div class="col-auto">
+					   <a href="contact.html"><i class="fas fa-address-card"></i>Contact Me</a>
+				    </div>
             </div>
-            <div class="row justify-content-center align-items-center" style="height: 70vh;">
+            <div class="row justify-content-between align-items-center" style="height: 70vh;">
 				<div class="col-6">
 			         <h2>IDET Grad Student</h2>
-			<h3>Cool Guy| Teacher | Family </h3>
+                    <h3><a href="About%20me.html">About Me</a> | <a href="Projects.html">Projects</a></h3>
 			<h5>
 				Looking to learn some HTML. Trying to make this all work! I'll change all this later. 
 			</h5>
 		      </div>
-                <div class="col-4">
-					<img src="img/laptop-2298286_1280.png" width="100%" height="auto" alt="Laptop and a Cactuc" />
+                <div class="col-5">
+					<img src="img/laptop-2298286_1280.png" width="100%" height="auto" alt="Laptop and a Cactus" />
 					<!--Image by <a href="https://pixabay.com/vectors/laptop-computer-portable-pc-2298286/">Pixabay</a>-->
 				</div>
 			</div>
-			<div class="row justify-content-center">
+			<!--<div class="row justify-content-center">
 				<div class="col-auto">
 					<a href="#">
 						<span>Scroll Down</span><br />
@@ -68,7 +76,7 @@
 				</div>
 			</div>
 			<div class="row justify-content-center">
-				<div class="col-5">
+				<div class="col-4">
 					<h4>
 						Doing cool things in a crazy world... 
 					</h4>
@@ -78,7 +86,7 @@
 		</div>
         
         <!-- Start Navigation Section-->
-		<nav id="sec_nav">
+		<!--<nav id="sec_nav">
 			<ul>
 				<li><a href="#sec_abo">About Me</a></li>
 				<li>Experience</li>
@@ -92,11 +100,11 @@
 		</nav>
         <!-- END Navigation Section-->
         
-		<div id="sec_abo">
-			<!-- Start About Me Section -->
+        <!-- Start About Me Section -->
+		<!--<div id="sec_abo">
 			<h1>About Me</h1>
-			<img src="img/IMG_7486.png" alt="Jesse Manscill Looking Cool" height="500" width="auto" />
-			<p>
+			<img src="img/IMG_7486.png" alt="Jesse Manscill Looking Cool" height="300" width="auto" />
+			<p class="par_abo">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur.
@@ -104,9 +112,9 @@
 		</div>
 		<!-- End About Me Section -->
         
-		<div id="sec_exp">
-			<!-- Start Experience Section -->
-			<h1>Experience</h1>
+        <!-- Start Experience Section -->
+		<!--<div id="sec_exp">
+			<h1 class=exp_header>Experience</h1>
 			<h2>IDET Grad Student</h2>
 			<h3>Educational Psychology, <br /><span>University of Utah</span></h3>
 			<p>Seeking to Graduate in Spring of 2022</p>
@@ -117,6 +125,7 @@
 			</p>
 		</div>
 		<!-- End Experience Section -->
+        <!-- This is the bottom of the page--->
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
