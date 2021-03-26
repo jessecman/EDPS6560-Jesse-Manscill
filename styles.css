@@ -1,6 +1,3 @@
-/* CSS Reference from W3School: https://www.w3schools.com/cssref/ */
-
-/* Example Variables */
 :root {
 	/* Fonts */
 	--font-family1: 'Lato', sans-serif;
@@ -8,6 +5,9 @@
     --font-family3: 'Open Sans', sans-serif;
     --font-family4: 'Poppins', sans-serif;
     --font-family5: 'Roboto', sans-serif;
+    --font-family6: 'Press Start 2P', cursive;
+    --font-family7: 'Cabin', sans-serif;
+    --font-family8: 'Syncopate', sans-serif;
     
 	/* Colors */
 	--gray: #485359;
@@ -22,34 +22,92 @@
     --pink: #E6B3E7;
     --salmon: #E7B3B4; 
     --brown: #E7CCB3;
-    --green: #B4E7B3
+    --green: #B4E7B3;
+    
+    --darkblue: #28527a;
+    --lightblue: #8ac4d0;
+    --darkyellow: #f4d160;
+    --lightyellow: #fbeeac;
 }
 
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
 
 /* Example Syntax */
+
+.my-name {
+    position:fixed;
+}
+
+.fa-address-card{
+    color:var(--dark2);
+}
+.exp_header {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 300%;
+}
+
+a {
+    color:var(--light);
+}
+
+a:hover {
+    font-family: 'Syncopate', sans-serif;
+}
+
+.par_abo {
+    font-family: 'Cabin', sans-serif;
+    color: var(--green);
+    line-height: 299%;
+    text-align: center;
+    font-weight:900; 
+    font-kerning: normal
+}
+
+.par_exp {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 75%;
+    color: var(--pink);
+    line-height: 190%
+}
+
+.my-name {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 300%;
+    font-variant: small-caps;
+    color: var(--dark2)
+}
+
 #sec_lan {
-	height: 200vh;
-	background-color: var(--green);
-    font-family: 'Roboto', sans-serif;
+	height: 400vh;
+    background-image: url("../img/table-top-with-background.jpg");
+    background-position: center;
+    background-size:150%;
+    background-repeat:no-repeat;
+	background-color: var(--lightyellow);
+    font-family: 'Cabin', sans-serif;
+    font-size: 100%;
+    font-variant: small-caps;
 }
 
 #sec_nav {
 	height: 35vh;
-	background-color: var(--brown);
+	background-color: var(--darkyellow);
     font-family: 'Poppins', sans-serif;
 }
 
 #sec_abo {
     height: 75vh;
-    background-color: var(--salmon);
-    font-family: 'Montserrat', sans-serif;     
+    background-color: var(--lightblue);
+    font-family: 'Montserrat', sans-serif; 
+    color: var(--darkblue);
+    font-family:'Poppins', sans-serif
+    
     }
 
 #sec_exp {
-    height: 50vh;
-    background-color: var(--pink);
+    height: 75vh;
+    background-color: var(--darkblue);
     font-family: 'Roboto', sans-serif;
 }
 
