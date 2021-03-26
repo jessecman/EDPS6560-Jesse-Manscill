@@ -1,0 +1,34 @@
+:root{
+    
+
+/*Fonts*/
+--font-family1: 'Chango', cursive;
+
+
+/*Colors*/
+
+
+}
+
+#about_me {
+    font-family: 'Chango';
+    color:aquamarine;
+    background-color: beige;
+    
+}
+
+.fa-arrow-circle-left {
+    color:aquamarine;
+   
+}
+
+p{
+    font-family:cursive;
+    color:cornflowerblue
+}
+
+.fa-facebook{
+    color:dodgerblue;
+    size: 300%;
+    
+}
