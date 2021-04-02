@@ -1,0 +1,45 @@
+.parent {
+ font-size:100px;
+    background-color: #9ede73;
+    padding: 30px;
+    font-family:sans-serif;
+    color:cornsilk;
+    height: 150vh;
+   
+}
+.child-one {
+    background-color: #f7ea00;
+    padding: inherit;
+    border: 3px dotted #e48900;
+    margin: 10px;
+   position: sticky;
+    right: 100px;
+    top: 5px;
+    float: none;
+
+    
+}
+
+.child-two {
+    background-color: #e48900;
+    padding-top: 10px;
+    border: 4px solid #be0000;
+    margin: 10px;
+    box-sizing: border-box;
+    position: sticky;
+    top:10px;
+    float: center;
+    
+    
+} 
+
+.child-three {
+    background-color: #be0000;
+    padding-left: 300px;
+    border: 4px dashed #f7ea00;
+    margin: 10px;
+    position: sticky;
+    top: 5px;
+    float:inherit;
+    
+}
