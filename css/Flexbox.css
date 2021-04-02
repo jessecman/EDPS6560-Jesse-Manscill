@@ -1,0 +1,38 @@
+.flexbox-container{
+    display:flex; 
+    background-color: antiquewhite;
+    justify-content: center;
+    align-content:space-between;
+}
+
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px dotted #334;
+    
+    
+}
+
+.flexbox-item-1{
+    min-height: 100px;
+    background-color: beige;
+    flex-shrink: 1;
+
+}
+}
+
+.flexbox-item-2{
+    min-height: 200px;
+    background-color:aqua;
+    flex-grow: 2;
+    flex-basis: 0;
+    order:1;
+}
+
+.flexbox-item-3{
+    min-height: 300px;
+    background-color: darkturquoise;
+    flex-grow: 1;
+    flex-basis: 0;
+    
+}
