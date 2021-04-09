@@ -1,0 +1,163 @@
+
+#parent{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+
+}
+
+#child{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    background-color:crimson;
+    height: 50%;
+    width: 50%;
+    color: white;
+    animation-name: move;
+    animation-duration: 3s;
+}
+
+#parent:hover #child{
+   animation: 4;
+    
+}
+#parent2{
+    width: 400px;
+    height: 400px;
+}
+
+#child2{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    width: 50%;
+    height: 50%;
+    background-color: aquamarine;
+    color:white;
+    transition: width 1s, height 1s;
+    transition-timing-function: ease-in;
+    transition-delay:.25s;
+}
+
+#child2:hover{
+    width: 100%;
+    height: 100%;
+}
+
+#parent3{
+    background-color: darkgrey;
+    height: 400px;
+    width:auto;
+}
+
+#child3{
+    background-color: dodgerblue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:45%;
+    width: 45%;
+    margin: 100px;
+    animation-name: rotate;
+    animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear 
+}
+
+#parent4 {
+    background-color: beige;
+    width: 400px;
+    height: 400px;
+}
+
+#child4 {
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+    height: 50%;
+    margin: 100px;
+    color: white;
+    animation: infinite;
+    animation-name: change; 
+    animation-duration: 4s;
+    
+}
+
+
+@keyframes rotate {
+    from {
+        transform:rotate(0deg); background-color:blueviolet;
+    }
+    to {
+        transform:rotate(360deg); background-color:aquamarine; 
+}
+    
+}
+@keyframes change {
+    0% {background-color:darkgreen;}
+    25% {background-color: coral;}
+    50% {background-color:darkmagenta;}
+    75% {background-color: forestgreen;}
+    100% {background-color:darkkhaki;}   
+    }
+
+
+@keyframes move { 
+    0% {background-color: red; transform: translateX(0%);}
+    33% {background-color: purple; transform: translateY(100%);}
+    66% {background-color: coral; transform:  translateX(100%) 
+        translateY(100%);}
+    100%{background-color: greenyellow; transform: translateX(100%);}
+
+/*
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  transition-duration: 2s;
+  transition-property: width;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container:hover .box {
+  width: 600px;
+}
+
+.one {
+  background: #07BEB8;
+  transition-timing-function: linear;
+}
+
+.two {
+  background: #3DCCC7;
+  transition-timing-function: ease-in;
+}
+
+.three {
+  background: #9CEAEF;
+  transition-timing-function: ease-out;
+}
+
+.four {
+  background: #B1F8F2;
+  transition-timing-function: ease-in-out;
+}
+*/
+
+
+/*
+  transition-delay: 0;
+  transition-duration: 1s;
+  transition-property: background;
+  transition-timing-function: ease;
+*/
