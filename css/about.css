@@ -3,32 +3,48 @@
 
 /*Fonts*/
 --font-family1: 'Chango', cursive;
+--font-family2: 'Rubik Mono One', sans-serif;
+--font-family3: 'Open Sans', sans-serif;
 
 
-/*Colors*/
-
-
+/* Colors */
+    /* Palette 1 */
+--yellow: #f9ed69;
+--orange: #f08a5d;
+--maroon: #b83b5e;
+--purple: #6a2c70;
+    
+/* Palette 2 */
+--cream: #f7f3e9;
+--lightblue: #a3d2ca;
+--darkblue: #5eaaa8;
+--red: #f05945;
 }
 
-#about_me {
-    font-family: 'Chango';
-    color:aquamarine;
-    background-color: beige;
-    
+
+#about_page {
+    background-color: var(--cream);
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+h1
+{
+    color:var(--darkblue)
+}
+
+h2, h3 {
+    color:var(--lightblue);
 }
 
 .fa-arrow-circle-left {
-    color:aquamarine;
-   
+    color:var(--red)
 }
 
 p{
-    font-family:cursive;
-    color:cornflowerblue
+    font-family:'Open Sans', sans-serif;
+    color:var(--red);
 }
 
-.fa-facebook{
-    color:dodgerblue;
-    size: 300%;
-    
+#social_header {
+    padding: 20px;   
 }
