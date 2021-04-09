@@ -83,6 +83,7 @@
     animation: infinite;
     animation-name: change; 
     animation-duration: 4s;
+    border-radius: 50%;
     
 }
 
@@ -111,53 +112,3 @@
     66% {background-color: coral; transform:  translateX(100%) 
         translateY(100%);}
     100%{background-color: greenyellow; transform: translateX(100%);}
-
-/*
-.container {
-  width: 100vw;
-  height: 100vh;
-}
-
-.box {
-  width: 200px;
-  height: 200px;
-  transition-duration: 2s;
-  transition-property: width;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-
-.container:hover .box {
-  width: 600px;
-}
-
-.one {
-  background: #07BEB8;
-  transition-timing-function: linear;
-}
-
-.two {
-  background: #3DCCC7;
-  transition-timing-function: ease-in;
-}
-
-.three {
-  background: #9CEAEF;
-  transition-timing-function: ease-out;
-}
-
-.four {
-  background: #B1F8F2;
-  transition-timing-function: ease-in-out;
-}
-*/
-
-
-/*
-  transition-delay: 0;
-  transition-duration: 1s;
-  transition-property: background;
-  transition-timing-function: ease;
-*/
