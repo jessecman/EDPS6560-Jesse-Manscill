@@ -48,3 +48,33 @@ p{
 #social_header {
     padding: 20px;   
 }
+
+#twitter {
+    will-change: transform;
+    transition: transform 450ms;
+  }
+  
+  #twitter:hover {
+    transition: transform 125ms;
+    transform: translateY(-8px);
+  }
+
+#facebook {
+    will-change: transform;
+    transition: transform 450ms;
+  }
+  
+  #facebook:hover {
+    transition: transform 125ms;
+    transform: translateY(-8px);
+  }
+
+#linkedin {
+    will-change: transform;
+    transition: transform 450ms;
+  }
+  
+  #linkedin:hover {
+    transition: transform 125ms;
+    transform: translateY(-8px);
+  }
