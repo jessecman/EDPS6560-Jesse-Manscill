@@ -20,12 +20,17 @@
 --darkblue: #5eaaa8;
 --red: #f05945;
 }
-
+    
+body {
+    background-color: var(--darkblue);
+}
 
 #about_page {
+    height: 71vh;
     background-color: var(--cream);
     font-family: 'Rubik Mono One', sans-serif;
 }
+
 
 h1
 {
@@ -78,3 +83,4 @@ p{
     transition: transform 125ms;
     transform: translateY(-8px);
   }
+
