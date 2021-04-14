@@ -33,11 +33,6 @@
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
 
-/* Example Syntax */
-
-.my-name {
-    position:fixed;
-}
 
 .fa-address-card{
     color:var(--dark2);
@@ -53,6 +48,7 @@ a {
 
 a:hover {
     font-family: 'Syncopate', sans-serif;
+    color: var(--salmon);
 }
 
 .par_abo {
@@ -75,19 +71,21 @@ a:hover {
     font-family: 'Syncopate', sans-serif;
     font-size: 300%;
     font-variant: small-caps;
-    color: var(--dark2)
+    color: var(--dark2);
+    position: fixed;
 }
 
 #sec_lan {
 	height: 400vh;
     background-image: url("../img/table-top-with-background.jpg");
     background-position: center;
-    background-size:150%;
+    background-size:cover;
     background-repeat:no-repeat;
 	background-color: var(--lightyellow);
     font-family: 'Cabin', sans-serif;
     font-size: 100%;
     font-variant: small-caps;
+    position: fixed;
 }
 
 #sec_nav {
@@ -109,7 +107,10 @@ a:hover {
     height: 75vh;
     background-color: var(--darkblue);
     font-family: 'Roboto', sans-serif;
+    
 }
+
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
